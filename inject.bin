@@ -1,0 +1,14 @@
+REM Title: Cross-Platform Web Delivery Payload for USB Rubber Ducky
+REM Description: Opens a browser and navigates to a specified URL on Windows, Mac, and Linux systems.
+DEFINE WEBSITE http://example.com
+DELAY 1000
+ALT F2
+DELAY 50
+COMMAND SPACE
+DELAY 50
+GUI r
+DELAY 50
+BACKSPACE
+DELAY 100
+STRING WEBSITE
+ENTER
